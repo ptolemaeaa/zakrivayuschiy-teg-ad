@@ -88,14 +88,14 @@
 }
 
 .card__title {
-  font-weight: var(--title-weight);
+  font-variation-settings: "wgth" var(--title-weight);
   font-size: 18px;
   padding: 5px 10px;
 }
 
 .card__description {
   font-size: 18px;
-  font-weight: var(--main-text-weight);
+  font-variation-settings: "wgth" var(--main-text-weight);
   padding: 24px 26px 0;
   line-height: 21px;
 }
@@ -132,7 +132,7 @@
   right: 10px;
   z-index: 1;
   color: black;
-  font-family: 'PressStart2P';
+  font-family: var(--press-start-2p);
   font-size: 14px;
   mix-blend-mode: hard-light;
 }
@@ -176,7 +176,7 @@
 }
 
 .dialog__text {
-  font-family: 'PressStart2P';
+  font-family: var(--press-start-2p);
   font-size: 14px;
   grid-area: text;
   display: block;
@@ -214,7 +214,6 @@
   grid-template-columns: 60px 1fr;
   align-items: center;
   padding: 30px 35px;
-  height: 191px;
   width: clamp(341px, calc(336.775px + 1.127vw), 353px);
 }
 
@@ -263,7 +262,7 @@
 
 .button__text {
   position: relative;
-  font-family: 'PressStart2P';
+  font-family: var(--press-start-2p);
   font-size: 14px;
   z-index: 2;
   color: white;

@@ -238,18 +238,13 @@
     <script src="./scripts/like.js"></script>
 
     <script>
-      const saveBtn = document.getElementById('save-btn');
-      const dialog = document.getElementById('dialog-id');
-      const okBtn = document.getElementById('ok-btn');
+      document.addEventListener("DOMContentLoaded", () => {
+        const saveBtn = document.getElementById('save-btn');
+        const dialog = document.getElementById('dialog-id');
+        const okBtn = document.getElementById('ok-btn');
 
-      saveBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        dialog.showModal();
-      });
-
-      okBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        dialog.close();
+        saveBtn.addEventListener('click', () => dialog.showModal());
+        okBtn.addEventListener('click', () => dialog.close());
       });
     </script>
     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 39 39" class="none">

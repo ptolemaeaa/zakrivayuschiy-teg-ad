@@ -1,1 +1,1 @@
-https://github.com/ptolemaeaa/slozhno-sosredotochitsya-ad
+https://github.com/ptolemaeaa/zakrivayuschiy-teg-ad

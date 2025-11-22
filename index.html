@@ -214,7 +214,7 @@
       <button
         class="save-button text-button"
         type="button"
-        onclick="window['dialog-id'].show()" 
+        onclick="document.getElementById('dialog-id').showModal()" 
         aria-controls="dialog-id"
       >
         <svg class="save-button__icon" viewBox="-10 -10 55 55">
@@ -230,7 +230,7 @@
         <button
           class="dialog__button text-button"
           type="button" 
-          onclick="window['dialog-id'].close()"
+          onclick="document.getElementById('dialog-id').close()"
         >
           <span class="button__text">ОК</span>
         </button>
